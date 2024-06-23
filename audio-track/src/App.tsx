@@ -6,7 +6,7 @@ import "./App.css";
 
 const App: React.FC = observer(() => {
   useEffect(() => {
-    audioStore.initAudio("/audio/FROMSKYTOABYSS_-_After_Us.mp3");
+    audioStore.initAudio("/vk-track/audio/FROMSKYTOABYSS_-_After_Us.mp3");
   }, []);
 
   const renderTime = () => {
