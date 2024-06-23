@@ -43,7 +43,7 @@ const App: React.FC = observer(() => {
         <div className="timer">
           <div className="timer">{renderTime()}</div>
         </div>
-        <Icon20MoreVertical fill={"blue"} />
+        <Icon20MoreVertical fill={"blue"} style={{ cursor: "pointer" }} />
       </div>
     </div>
   );
